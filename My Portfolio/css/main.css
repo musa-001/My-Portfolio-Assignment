@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(255, 255, 255);
+    color: rgb(54, 54, 54);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    text-rendering: optimizeLegibility;
+}
+
+.main-header{
+    background: linear-gradient(rgba(0, 0, 0, 0.932),#3131318e), url('../images/ale.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    color:rgb(255, 255, 255);
+    width: 100vw;
+    height: 100vh;
+    padding-top: 20px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.main-header-content{
+    font-size: 35px;
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    line-height: 1.5;
+}
+
+.main-header-content p{
+    font-size: 18px;
+}
+
+.main-header-content a{
+    background: linear-gradient(rgb(41, 41, 41), rgb(24, 24, 24));
+    border-radius: 20px;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 40px;
+    padding: 15px 20px;
+}
+
+.main-header h1{
+display: none;
+}
+
+header .main-nav{
+    background: #d8d8d800;
+    float: left;
+    width: 100%;
+    /*margin-top: -30px;*/
+    position: fixed;
+    left: 0;
+    top: 0;
+    /*background: rgba(0, 0, 0, 0.644);*/
+    padding: 30px 0;
+}
+
+.main-nav ul{
+    margin-left: 650px;
+}
+
+.main-nav ul li{
+    font-size: 24px;
+    display: inline-block;
+    padding: 0 10px 0 10px;
+}
+
+.main-nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-nav ul li a:hover{
+    color:#1e1f1e;
+    transition: 1.2s;
+}
+
+footer{
+    background: #000;
+    color: rgb(77, 75, 75);
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/*
+.content-wrapper{
+    width: 80%;
+    margin: auto auto;
+}
+
+.about{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+h3{
+    color: #00B900;
+    margin-bottom: 10px;
+}
+
+.text{
+    float: left;
+    width: 70%;
+    text-align: justify;
+    padding: 10px 5px 5px 10px;
+}
+
+.image{
+    float: right;
+    width: 20%;
+}
+
+.image img{
+    display: block;
+    width: 250px;
+    background-repeat: no-repeat;
+    height: 250px;
+    border-radius: 150%;
+    border: 1px solid rgb(44, 44, 44);
+    margin-bottom: -25px;
+}
+
+.services{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.web-design{
+    background: #fff;
+    color:rgb(90, 90, 90);
+    float: left;
+    width: 310px;
+    height: fit-content;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 5px 10px 5px;
+    box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.171);
+    margin: 0 5px;
+}
+
+.web-design:hover{
+    background:#00B900;
+    color: #fff;
+}
+
+.web-design h4{
+    color: rgb(255, 166, 0);
+    text-decoration: underline;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.maintenance{
+    background: #fff;
+    color:rgb(90, 90, 90);
+    float: left;
+    width: 310px;
+    height: fit-content;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 5px 10px 5px;
+    box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.171);
+    margin: 0 5px;
+}
+
+.maintenance:hover{
+    background:#00B900;
+    color: #fff;
+}
+
+.graphic-design{
+    background: #fff;
+    color:rgb(90, 90, 90);
+    float: left;
+    width: 310px;
+    height: fit-content;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 5px 10px 5px;
+    box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.171);
+    margin: 0 5px;
+}
+
+.graphic-design:hover{
+    background:#00B900;
+    color: #fff;
+}
+
+
+.contact{
+    width: 100%;
+}
+
+.contact h4{
+    color: rgb(68, 68, 68);
+    margin: 5px 0;
+}
+
+.contact label{
+    display: block;
+    margin: 5px 0;
+}
+
+.contact input{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    width: 600px;
+    min-height: 30px;
+    border: 1.5px solid #ccc;
+    border-radius: 10px;
+    margin: 5px 0;
+    padding: 5px 25px;
+}
+
+.contact textarea{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    width: 650px;
+    border: 1.5px solid #ccc;
+    border-radius: 10px;
+    min-height: 100px;
+    display: block;
+    margin: 10px 0;
+    padding: 15px;
+}
+
+.contact button{
+    background: linear-gradient(rgb(56, 255, 38), rgb(16, 145, 4));
+    color: #fff;
+    padding: 15px 10px;
+    border-radius: 10px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    transition: 1.5s;
+}
+
+.contact button:hover{
+    background: #fff;
+    color: rgb(37, 37, 37);
+    border: 3px solid #ccc;
+}

@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(255, 255, 255);
+    color: rgb(54, 54, 54);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    text-rendering: optimizeLegibility;
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contact{
+    width: 100%;
+}
+
+.contact h4{
+    color: rgb(68, 68, 68);
+    margin: 5px 0;
+}
+
+.contact label{
+    display: block;
+    margin: 5px 0;
+}
+
+.contact input{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    width: 630px;
+    min-height: 30px;
+    border: 1.5px solid #ccc;
+    border-radius: 10px;
+    margin: 5px 0;
+    padding: 5px 25px;
+}
+
+.contact textarea{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    width: 650px;
+    border: 1.5px solid #ccc;
+    border-radius: 10px;
+    min-height: 100px;
+    display: block;
+    margin: 10px 0;
+    padding: 15px;
+}
+
+.contact button{
+    background: linear-gradient(rgb(56, 255, 38), rgb(16, 145, 4));
+    color: #fff;
+    padding: 15px 10px;
+    border-radius: 10px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    transition: 1.5s;
+}
+
+.contact button:hover{
+    background: #fff;
+    color: rgb(37, 37, 37);
+    border: 3px solid #ccc;
+}
